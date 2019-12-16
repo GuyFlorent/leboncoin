@@ -1,0 +1,19 @@
+{
+  "name": "leboncoin",
+  "version": "1.0.0",
+  "description": "une application javascript fullstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuyFlorent/leboncoin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuyFlorent/leboncoin/issues"
+  },
+  "homepage": "https://github.com/GuyFlorent/leboncoin#readme"
+}
