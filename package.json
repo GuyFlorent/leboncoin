@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/GuyFlorent/leboncoin/issues"
   },
-  "homepage": "https://github.com/GuyFlorent/leboncoin#readme"
+  "homepage": "https://github.com/GuyFlorent/leboncoin#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.1"
+  }
 }
