@@ -1,6 +1,8 @@
+//connection to the databese
 var mongoose = require('mongoose');
+//save it in a variable
 var Shema = mongoose.Schema;
-
+//parameter for creating a new shema
 var userShema = new Shema({
     firstname: String,
     lastname : String,
@@ -13,4 +15,5 @@ var userShema = new Shema({
     registerDate: {type: Date, default: new Date}
 });
 
+//export that usershema as User
 module.exports = mongoose.model('User', userShema);
